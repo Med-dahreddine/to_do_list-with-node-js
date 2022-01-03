@@ -1,24 +1,27 @@
 {
-  "name": "to_do_list-with-node",
+  "name": "todo-list-v2",
   "version": "1.0.0",
   "description": "",
-  "main": "index .js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Med-dahreddine/to_do_list-with-node-js.git"
+    "url": "git+https://github.com/zakaria2105/todo-list-v2.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Med-dahreddine/to_do_list-with-node-js/issues"
+    "url": "https://github.com/zakaria2105/todo-list-v2/issues"
   },
-  "homepage": "https://github.com/Med-dahreddine/to_do_list-with-node-js#readme",
-  "devDependencies": {
-    "nodemon": "^2.0.15"
+  "homepage": "https://github.com/zakaria2105/todo-list-v2#readme",
+  "dependencies": {
+    "http": "^0.0.1-security",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "url": "^0.11.0"
   }
 }
